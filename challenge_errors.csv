@@ -1,0 +1,15 @@
+﻿text,category,priority,pred_category,conf_category,pred_priority,conf_priority
+The application closes by itself whenever I tap on it.,technical,medium,technical,0.988,low,0.747
+I never got the link to change my password.,account,medium,account,0.866,low,0.494
+"Please erase my profile and all my data whenever convenient, no rush.",account,low,account,0.872,high,0.378
+"The box was crushed and the screen inside is broken, I need help right now!",shipping,high,technical,0.487,high,0.587
+"Can I send this item back if I change my mind? Just curious, not urgent.",refund,low,refund,0.684,medium,0.794
+انسحب من بطاقتي نفس المبلغ مرتين، أرجو التصحيح.,billing,medium,billing,0.821,low,0.551
+فاتورتي الأخيرة أعلى من المتفق عليه، بس سؤال لا أكثر وبدون استعجال.,billing,low,refund,0.453,low,0.991
+الأداء ثقيل والتطبيق يتأخر في كل خطوة.,technical,medium,technical,0.976,high,0.787
+نسيت الباسورد وما وصلتني رسالة الاستعادة.,account,medium,refund,0.822,low,0.612
+ممكن أعدل رقم جوالي المسجل بالحساب؟ مو مستعجل.,account,low,shipping,0.585,low,0.829
+الطرد تأخر أسبوعين ولا أحد يرد علي، عاجل لو سمحتم!,shipping,high,refund,0.404,low,0.747
+جاني غرض غير اللي طلبته.,shipping,medium,account,0.541,low,0.969
+أبي أرجع الجهاز وآخذ فلوسي، الجودة مو مثل الإعلان.,refund,medium,shipping,0.533,medium,0.501
+كيف ألغي طلبي قبل ما يطلع من المستودع؟ شكرا.,refund,medium,refund,0.737,high,0.575

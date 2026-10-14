@@ -1,0 +1,122 @@
+{
+  "n_train": 304,
+  "n_test": 76,
+  "systems": [
+    {
+      "system": "TF-IDF (char n-gram) + LR",
+      "latency_ms_per_ticket": 0.38,
+      "category": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "priority": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "intent": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    },
+    {
+      "system": "Embeddings + LR",
+      "latency_ms_per_ticket": 1.07,
+      "category": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "priority": {
+        "accuracy": 0.8684,
+        "macro_f1": 0.8408
+      },
+      "intent": {
+        "accuracy": 0.9868,
+        "macro_f1": 0.9852
+      }
+    },
+    {
+      "system": "kNN retrieval vote (k=5)",
+      "latency_ms_per_ticket": 1.0,
+      "category": {
+        "accuracy": 0.9211,
+        "macro_f1": 0.8944
+      },
+      "priority": {
+        "accuracy": 0.5,
+        "macro_f1": 0.3913
+      },
+      "intent": {
+        "accuracy": 0.9079,
+        "macro_f1": 0.8801
+      }
+    }
+  ],
+  "retrieval": {
+    "hit@1": 0.9605,
+    "hit@3": 0.9737,
+    "hit@5": 0.9868,
+    "mrr@5": 0.9704
+  },
+  "challenge_set": {
+    "n": 20,
+    "systems": [
+      {
+        "system": "TF-IDF (char n-gram) + LR",
+        "category": {
+          "accuracy": 0.45,
+          "macro_f1": 0.4361
+        },
+        "priority": {
+          "accuracy": 0.75,
+          "macro_f1": 0.7313
+        }
+      },
+      {
+        "system": "Embeddings + LR",
+        "category": {
+          "accuracy": 0.65,
+          "macro_f1": 0.6406
+        },
+        "priority": {
+          "accuracy": 0.5,
+          "macro_f1": 0.5
+        }
+      },
+      {
+        "system": "kNN retrieval vote (k=5)",
+        "category": {
+          "accuracy": 0.55,
+          "macro_f1": 0.5202
+        },
+        "priority": {
+          "accuracy": 0.1,
+          "macro_f1": 0.0702
+        }
+      }
+    ]
+  },
+  "error_analysis": {
+    "n_wrong_any_target": 10,
+    "category_by_language": {
+      "ar": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "en": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    },
+    "category_by_difficulty": {
+      "regular": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      },
+      "hard": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0
+      }
+    },
+    "top_category_confusions": []
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "method": "LoRA (r=16)",
+  "target": "category",
+  "learning_rate": 0.001,
+  "test": {
+    "accuracy": 0.9342,
+    "macro_f1": 0.9157
+  },
+  "challenge": {
+    "accuracy": 0.65,
+    "macro_f1": 0.6324
+  },
+  "latency_ms_per_ticket": 0.97,
+  "baseline_embeddings_lr": {
+    "test_macro_f1": 1.0,
+    "challenge_macro_f1": 0.6406
+  }
+}

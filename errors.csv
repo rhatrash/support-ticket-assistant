@@ -1,0 +1,11 @@
+﻿id,language,is_hard,text,category,pred_category,conf_category,priority,pred_priority,conf_priority,intent,pred_intent,conf_intent
+35,en,0,Rawaq Cloud is extremely slow and keeps freezing. Please help.,technical,technical,0.977,medium,high,0.738,slow_performance,slow_performance,0.923
+113,ar,1,الموضوع عاجل. حسابي انسرق وأحد سوى طلبات بدون علمي.,account,account,0.908,high,low,0.913,mixed,mixed,0.712
+19,ar,0,أرجو المساعدة. أبغى استرجاع مبلغ Rawaq Cloud لأنه ما يشتغل زي الوصف.,refund,refund,0.554,medium,low,0.536,request_refund,charge_after_cancel,0.31
+231,en,0,Please help. Tayseer is extremely slow and keeps freezing.,technical,technical,0.986,medium,high,0.647,slow_performance,slow_performance,0.942
+181,ar,0,أحتاج مساعدة الآن لو سمحتم! تم خصم المبلغ مرتين مقابل اشتراك Najm Plus.,billing,billing,0.918,high,medium,0.602,double_charge,double_charge,0.629
+202,en,0,Why was I billed for Rawaq Cloud after I cancelled it? Please help.,billing,billing,0.803,medium,low,0.502,charge_after_cancel,charge_after_cancel,0.775
+294,ar,0,الموضوع عاجل. أحد دخل على حسابي بدون إذني.,account,account,0.925,high,low,0.817,hacked_account,hacked_account,0.867
+97,ar,0,وش سياسة الإرجاع لـ Rawaq Cloud؟ الموضوع مو عاجل.,refund,refund,0.805,low,high,0.791,return_policy,return_policy,0.818
+18,en,0,This is urgent. There is an unknown charge of 52 SAR on my statement.,billing,billing,0.96,high,low,0.502,unknown_charge,unknown_charge,0.902
+85,en,0,"My package arrived damaged. When you have time, thanks.",shipping,shipping,0.945,low,medium,0.492,damaged_item,damaged_item,0.882
