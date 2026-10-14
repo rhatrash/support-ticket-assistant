@@ -1,0 +1,21 @@
+﻿text,category,priority
+"My card got debited two times for the same plan, please sort it out.",billing,medium
+There's a payment on my bank app that I never authorized. Need this fixed today!,billing,high
+The application closes by itself whenever I tap on it.,technical,medium
+"I can't log in, it just shows an error. This is blocking my whole team, please hurry!",technical,high
+I never got the link to change my password.,account,medium
+"Please erase my profile and all my data whenever convenient, no rush.",account,low
+The parcel was supposed to be here last week and there is no update.,shipping,medium
+"The box was crushed and the screen inside is broken, I need help right now!",shipping,high
+"Sent the product back ten days ago, when will my money return?",refund,medium
+"Can I send this item back if I change my mind? Just curious, not urgent.",refund,low
+انسحب من بطاقتي نفس المبلغ مرتين، أرجو التصحيح.,billing,medium
+فاتورتي الأخيرة أعلى من المتفق عليه، بس سؤال لا أكثر وبدون استعجال.,billing,low
+البرنامج ما يفتح عندي أبدا وأحتاج حل عاجل!,technical,high
+الأداء ثقيل والتطبيق يتأخر في كل خطوة.,technical,medium
+نسيت الباسورد وما وصلتني رسالة الاستعادة.,account,medium
+ممكن أعدل رقم جوالي المسجل بالحساب؟ مو مستعجل.,account,low
+الطرد تأخر أسبوعين ولا أحد يرد علي، عاجل لو سمحتم!,shipping,high
+جاني غرض غير اللي طلبته.,shipping,medium
+أبي أرجع الجهاز وآخذ فلوسي، الجودة مو مثل الإعلان.,refund,medium
+كيف ألغي طلبي قبل ما يطلع من المستودع؟ شكرا.,refund,medium
