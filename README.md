@@ -5,7 +5,7 @@ Capstone project for the **Applied NLP Engineering** bootcamp, AI Engineering Tr
 - SDAIA Academy on GitHub: https://github.com/SDAIAAcademy
 - Course page: https://sdaiaacademy.github.io/applied-nlp/
 
-**Author:** Ghala Khalid Al-Harbi (individual project)
+**Author:** Razan Saad Alshahrani (individual project)
 
 > **ملخص بالعربي:** نظام يستقبل رسالة عميل (عربي أو إنجليزي) ويحدد نيّتها وفئتها وأولويتها، ويبحث عن حالات مشابهة سابقة، ثم يكتب ردًّا مقترحًا مبنيًّا على حلول تلك الحالات. يغطي المشروع التمثيل (Embeddings)، التوليد المقيَّد بالمصادر (RAG)، المقارنة بين النماذج، وتحليل الأخطاء.
 
@@ -51,10 +51,10 @@ tests/                 smoke tests
 ### Google Colab (recommended)
 
 Use **Runtime > Change runtime type > GPU** (needed only for fine-tuning; everything else runs on CPU).
-Clone the repository using the HTTPS URL from the green **Code** button of this page, then:
+Then:
 
 ```python
-!git clone <HTTPS URL of this repository>
+!git clone https://github.com/rhatrash/support-ticket-assistant.git
 %cd support-ticket-assistant
 !pip install -q -r requirements.txt
 !bash run_all.sh                                   # data -> evaluation -> example outputs
